@@ -1,0 +1,105 @@
+.navbar {
+    background-color: black !important;
+}
+li a {
+color: white  !important;
+
+}  
+.d-block {
+    width:100% ;
+    height: 500px;
+}
+body {
+    background-color: rgb(230, 228, 228);
+    margin: 10 !important;
+}
+.slider img {
+    width: 100%;
+    height:750px;
+}
+
+h1 {
+    color: green;
+}
+
+.img1 {
+    width: 500px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://media.gettyimages.com/photos/architects-working-together-picture-id625937646?s=2048x2048');
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    width: 500px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://media.gettyimages.com/photos/architecture-blueprint-picture-id168386317?s=2048x2048');
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.img3 {
+    width: 500px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://media.gettyimages.com/photos/planning-for-the-world-of-tomorrow-picture-id858192236?s=2048x2048');
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 20px;
+} 
+.img4 {
+    width: 500px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://media.gettyimages.com/photos/architect-engineer-and-head-constructor-working-on-a-building-site-a-picture-id984342158?k=6&m=984342158&s=612x612&w=0&h=KOK7x4FQb8mIxL-YQdv73NsxjE0kIav2MO9Zk5b9Cfk=');
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+
+
+.img1:hover , .img2:hover , .img3:hover , .img4:hover, .img5:hover, .img6:hover, .img7:hover {
+    background-color:black;
+    opacity: 0.5;
+}
+
+.btn1 , .btn2 , .btn3 , .btn4 , .btn5 , .btn6 , .btn7 , .btn8 , .btn9 {
+    margin-top:120px;
+    margin-left: 200px;
+    display:none;
+}
+
+.btnHover {
+    display: inline !important;
+    opacity:1 !important;
+}
+.projets  {
+margin-top: 20px;
+
+}   
+
+.card {
+margin-top: 20px;
+margin-left: 50px;
+    
+   
+  
+    border: 20px; 
+   
+}
+.cards  {
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
